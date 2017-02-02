@@ -1,4 +1,5 @@
 #ifndef STATEEXPLORE_H
+#define STATEEXPLORE_H
 
 #include "..\FSMState.h"
 #include "..\utility.h"
