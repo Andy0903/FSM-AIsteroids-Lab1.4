@@ -12,7 +12,6 @@ StateExplore::~StateExplore()
 void StateExplore::NewRandomPos()
 {
 	float randPosX = (rand() % 25) + 1;
-	float randPosY = (rand() % 25) + 1;
 	float negOrPos = rand() % 2;
 
 	if (negOrPos == 0)
@@ -20,7 +19,8 @@ void StateExplore::NewRandomPos()
 		randPosX *= -1;
 	}
 
-	randPosY = (rand() % 25) + 1;
+	float randPosY = (rand() % 25) + 1;
+	negOrPos = rand() % 2;
 	if (negOrPos == 0)
 	{
 		randPosY *= -1;
