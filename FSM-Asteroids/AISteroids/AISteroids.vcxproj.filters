@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AI Controllers">
+      <UniqueIdentifier>{0ca460a3-510f-4807-8bab-113cf600013e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Method Files">
+      <UniqueIdentifier>{9b1d464c-4e96-4838-87f9-f887bfd95176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{46ea67f5-83ab-4508-860e-5f2b9c2a9962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{f99eb0e7-d018-46af-a582-c0be59e7f56b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AIControl.cpp">
+      <Filter>AI Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FSMAIControl.cpp">
+      <Filter>AI Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FSMMachine.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StateApproach.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StateAttack.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StateEvade.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StateGetPowerup.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StateIdle.cpp">
+      <Filter>AI Method Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utility.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ast.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Bullet.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Exp.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameObj.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Powerup.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ship.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Target.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\asteroids.cpp" />
+    <ClCompile Include="..\GameSession.cpp" />
+    <ClCompile Include="..\HumanControl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AIControl.h">
+      <Filter>AI Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FSMAIControl.h">
+      <Filter>AI Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FSM.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FSMMachine.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FSMState.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StateApproach.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StateAttack.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StateEvade.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StateGetPowerup.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StateIdle.h">
+      <Filter>AI Method Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Point3.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sphere3.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utility.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ast.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bullet.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Exp.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameObj.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Powerup.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ship.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Target.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Control.h" />
+    <ClInclude Include="..\GameSession.h" />
+    <ClInclude Include="..\HumanControl.h" />
+  </ItemGroup>
+</Project>
