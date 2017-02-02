@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <assert.h>
 #include <math.h>
-#include <GL/glut.h>
+#include <glut.h>
 #include "utility.h"
 
 Point3f colorArray[16];

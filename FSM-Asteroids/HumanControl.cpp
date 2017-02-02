@@ -2,7 +2,7 @@
 #include "GameSession.h"
 #include "Ship.h"
 #include "utility.h"
-#include <GL/glut.h>
+#include <glut.h>
 #include <ctype.h>
 
 //---------------------------------------------------------

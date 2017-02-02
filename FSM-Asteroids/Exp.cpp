@@ -1,4 +1,5 @@
-#include <GL/glut.h>
+
+#include <glut.h>
 #include "Exp.h"
 #include "utility.h"
 

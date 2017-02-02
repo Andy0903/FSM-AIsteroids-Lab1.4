@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Point3.h"
-#include <GL/glut.h>
+#include <glut.h>
 #include <math.h>
 #include <float.h>
 

@@ -1,4 +1,5 @@
-#include <GL/glut.h>
+
+#include <glut.h>
 #include "GameObj.h"
 #include "Ast.h"
 #include "Exp.h"

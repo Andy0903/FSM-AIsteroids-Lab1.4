@@ -1,4 +1,5 @@
-#include <GL/glut.h>
+
+#include <glut.h>
 #include "Point3.h"
 #include "Sphere3.h"
 #include "GameObj.h"

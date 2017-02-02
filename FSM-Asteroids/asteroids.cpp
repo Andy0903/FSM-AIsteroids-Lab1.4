@@ -1,4 +1,4 @@
-#include <GL/glut.h>
+#include <glut.h>
 #include <time.h>  
 
 #include "GameObj.h"

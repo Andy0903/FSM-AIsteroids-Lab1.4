@@ -1,4 +1,5 @@
-#include <GL/glut.h>
+
+#include <glut.h>
 #include <stdlib.h>
 #pragma warning(disable: 4786)
 #include <algorithm>

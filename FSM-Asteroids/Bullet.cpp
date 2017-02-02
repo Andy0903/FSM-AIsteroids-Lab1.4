@@ -1,4 +1,5 @@
-#include <GL/glut.h>
+
+#include <glut.h>
 #include "GameObj.h"
 #include "Bullet.h"
 #include "GameSession.h"
