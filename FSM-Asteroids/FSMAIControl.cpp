@@ -9,6 +9,7 @@
 #include "StateEvade.h"
 #include "StateGetPowerup.h"
 #include "StateIdle.h"
+#include "AISteroids\OwnMade\StateExplore.h"
 
 #include "Target.h"
 
@@ -26,6 +27,9 @@ AIControl(ship)
     m_machine->AddState(new StateGetPowerup(this));
     StateIdle* idle = new StateIdle(this);
     m_machine->AddState(idle);
+
+	m_machine->AddState(new StateExplore(this));
+
 //  m_machine->SetDefaultState(idle);
     m_machine->SetDefaultState(approach);
     m_machine->Reset();

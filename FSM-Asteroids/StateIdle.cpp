@@ -20,6 +20,11 @@ int StateIdle::CheckTransitions()
     if(parent->m_willCollide)
         return FSM_STATE_EVADE;
 
+	if (parent->m_ship->GetShotLevel() < (MAX_SHOT_LEVEL / 2))
+	{
+		return FSM_STATE_EXPLORE;
+	}
+
     if(parent->m_nearestAsteroid)
     {
         if(parent->m_nearestAsteroidDist > APPROACH_DIST)
@@ -31,6 +36,7 @@ int StateIdle::CheckTransitions()
     if(parent->m_nearestPowerup && 
 	   parent->m_ship->GetShotLevel() < MAX_SHOT_LEVEL)
         return FSM_STATE_GETPOWERUP;
+
 
     return FSM_STATE_IDLE;
 }
